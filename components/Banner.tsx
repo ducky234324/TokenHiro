@@ -19,9 +19,9 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col"
       >
-        Tokenhiro.
+        Tokenhiro,
         <span className="text-textDark mt-2 lgl:mt-4">
-          We build things for the web.
+          We build solution for the web of Blockchains.
         </span>
       </motion.h1>
       <motion.p

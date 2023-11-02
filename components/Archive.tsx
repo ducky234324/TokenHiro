@@ -19,7 +19,7 @@ const Archive = () => {
         <ArchiveCard
           title="NFT Collection"
           des="We will study your project and create a unique NFT collection for you. We can also create a website for your NFT collection."
-          listItem={["NFT", "Metadata", "IPFS", "Blockchain", "Any Network"]}
+          listItem={["NFT", "Metadata", "IPFS", "Blockchain", "Any Blockchain"]}
           link="https://www.fiverr.com/"
         />
         <ArchiveCard
@@ -30,14 +30,14 @@ const Archive = () => {
             "Markeplace",
             "Website",
             "Blockchain",
-            "Any Network",
+            "Any Blockchain",
           ]}
           link="https://www.fiverr.com/"
         />
         <ArchiveCard
-          title="Consulting : Token Creation, ICO, Marketing and listing Strategy"
-          des=" We will create a token for you and launch an ICO for your token. We can also help you to get started with your marketing strategy and create comminucation channel (Telegram group, Discord Server, Social Network, websites). Provide you with a listing strategy for your token on decentralized exchanges and charting app like CoinMarketCap."
-          listItem={["ERC20", "Token", "ICO", "Website", "Blockchain"]}
+          title="Token Creation and Marketing Strategy"
+          des=" We will create a token for you and launch an ICO for your token. We provide to you marketing strategy and create comminucation channel (Telegram group, Discord Server, Social Network, websites). Provide listing strategy for you Token."
+          listItem={["ERC20", "Token", "ICO", "Any Blockchain"]}
           link="https://www.fiverr.com/"
         />
         <ArchiveCard

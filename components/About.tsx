@@ -25,8 +25,9 @@ const About = () => {
             <br />
             <span className="text-textGreen">Security First: </span>
             In the world of digital assets, security is not an option, it is a
-            necessity. Our smart contracts undergo rigorous testing and audits
-            to ensure they are watertight against vulnerabilities. <br />
+            necessity. Our smart contracts undergo rigorous testing and
+            contracts are audits ready to ensure they are watertight against
+            vulnerabilities. <br />
             <span className="text-textGreen">Tailored Solutions: </span>No two
             projects are the same. We take the time to understand your vision
             and requirements, delivering a solution that is uniquely yours.{" "}
@@ -53,13 +54,19 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
+              Blockchain Agnostic Liquidity Pool
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
               Smart Contract Deployment on any Blockchain
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Token Creation ERC20, ERC721, ERC1155
+              Token Creation ERC20, ERC721, ERC1155 and more
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -91,6 +98,12 @@ const About = () => {
                 <AiFillThunderbolt />
               </span>
               Stacking, Farming, and Yield Farming, ICO, IDO, NFT Marketplace.
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Stablecoin Protocol and Decentralized Exchange.
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">

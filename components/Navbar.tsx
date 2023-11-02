@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import logo from "@/public/svg-trspt-tk/logo.svg";
+import logo from "@/public/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -49,7 +49,7 @@ const Navbar = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.1 }}
           >
-            <Image className="w-36" src={logo} alt="logo" />
+            <Image className="w-24" src={logo} alt="logo" />
           </motion.div>
         </Link>
         {/* ============ Logo End here ============== */}
