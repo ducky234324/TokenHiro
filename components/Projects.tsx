@@ -35,20 +35,37 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">NFT & Metaverse</h3>
             </div>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-              An Amazon clone website for visualizing personalized Amazon
-              website. View your products, Add your account with{" "}
+              At Tokenhiro, we help our patners to build Metaverse ecosystem by
+              providing them all the infrastructure needed, We do provide
+              consulting and we builds for you technical solition for your
+              metaverse project, incluting start to finish deployment for NFT,
+              interface, marketplace listing, game integration and much more.{" "}
+              <br />
+              We also help partners to connect with thier community by providing
+              seamless, secure and easy login method that can be integrated with
+              any metaverse project like : <br />
               <span className="text-textGreen">O-auth</span> and then make the
               purchage using <span className="text-textGreen">stripe</span>.
+              <br />
+              <span className="text-textGreen">Account Abstraction</span> and
+              then make the app login using <br />
+              <span className="text-textGreen">Integrated Smart Wallet</span> so
+              users do not need any external wallet.
+              <br />
+              <span className="text-textGreen">Communication Channel</span> by
+              setting up for them{" "}
+              <span className="text-textGreen">Telegram & Discord</span>.
+              <br />
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Stripe</li>
-              <li>Vercel Deployment</li>
+              <li>Audit Ready</li>
+              <li>NFT & Metaverse</li>
+              <li>Smart Wallet</li>
+              <li>Listing</li>
+              <li>Account Abstraction</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
@@ -97,22 +114,33 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Cyber Security Blog</h3>
+              <h3 className="text-2xl font-bold">DeFi, ICO & Token Launch</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
-              A full functional Cyber Security Blog where you can view the
-              latest post and{" "}
-              <span className="text-textGreen">comments on</span> it by passing
-              your ideas besides you can try to add your own{" "}
-              <span className="text-textGreen">post</span> on it by logging on
-              the portal.
+              We provide to our partners the best Infrastructure for launching
+              their DeFi projects by writing audit ready smart contracts that
+              feet with their requiements. We also providing support to design
+              the tokenonimics launch it in the best condition and setting up
+              launchpads and ICO for them. <br />
+              <span className="text-textGreen">We trully belive</span> that any
+              project is unique and need a particular attention, so we{" "}
+              <span className="text-textGreen">
+                keep engaging with our partners
+              </span>{" "}
+              in each step of the process to make sure that the project is a
+              true success.
+              <br />
+              We can deploy{" "}
+              <span className="text-textGreen">Any kind of token</span> on{" "}
+              <span className="text-textGreen">Any Blockchain</span>
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Sanity</li>
-              <li>React Hook Form</li>
+              <li>Defi</li>
+              <li>Stablecoin</li>
+              <li>Liquidity Pool</li>
+              <li>ICO</li>
+              <li>Launchpad</li>
+              <li>Consulting</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
@@ -161,20 +189,23 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">Custom Services</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
-              An Amazon clone website for visualizing personalized Amazon
-              website. View your products, Add your account with{" "}
-              <span className="text-textGreen">O-auth</span> and then make the
-              purchage using <span className="text-textGreen">stripe</span>.
+              Reach us by mail or on fiverr, we can provide a wild range of
+              custom services <span className="text-textGreen">Email-us</span>{" "}
+              and{" "}
+              <span className="text-textGreen">
+                Tells us more about You project
+              </span>
+              .
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Stripe</li>
-              <li>Vercel Deployment</li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a

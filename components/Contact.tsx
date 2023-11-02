@@ -20,9 +20,14 @@ const Contact = () => {
         applications.
       </p>
 
-      <a href="mailto:noor.jsdivs@gmail.com">
+      <a href="mailto:token.hiro.service@gmail.com">
         <button className="w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300">
           Email Us
+        </button>
+      </a>
+      <a href="https://fiverr.com">
+        <button className="w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300">
+          Fiverr
         </button>
       </a>
     </section>
