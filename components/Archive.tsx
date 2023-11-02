@@ -41,8 +41,8 @@ const Archive = () => {
           link="https://www.fiverr.com/"
         />
         <ArchiveCard
-          title="Liquidity Pool Creation"
-          des=" We will create a liquidity pool for your token and add value into liquidity pool of any decentralized exchange protocol. This will help you to increase the value of your token."
+          title="ERC721 Non Escrow Smart Contract"
+          des=" Modified NFTDrop to allow for NES (Non Escrow Staking) This allows holders to stake their NFTs without the token ever leaving their wallet."
           listItem={["Uniswap", "PancakeSwap", "SushiSwap", "Any Blockchain"]}
           link="https://www.fiverr.com/"
         />
