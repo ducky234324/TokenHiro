@@ -1,4 +1,8 @@
-import { amazonImg, cyberImg, noorShop } from "@/public/assets";
+import {
+  futuristicCityImg,
+  digitalForestImg,
+  digitalLandscapeImg,
+} from "@/public/assets";
 import Image from "next/image";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
@@ -14,14 +18,14 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://nextamazon.reactbd.com/"
+            href="https://fiverr.com/"
             target="_blank"
           >
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={amazonImg}
-                alt="amazonImg"
+                src={futuristicCityImg}
+                alt="Illustration-of-a-futuristic-city-skyline-where-large-holographic-screens-showcase-a-variety-of-NFT-artworks-The-screens-float-above-the-buildings-an"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -49,21 +53,21 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://youtu.be/WzMtRfzkP-Q"
+                href="https://youtu.be/"
                 target="_blank"
               >
                 <AiOutlineYoutube />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://nextamazon.reactbd.com/"
+                href="https://fiverr.com/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
@@ -76,14 +80,14 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://www.noormohmmad.com/"
+            href="https://www.google.com/"
             target="_blank"
           >
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={cyberImg}
-                alt="cyberImg"
+                src={digitalForestImg}
+                alt="Illustration-of-a-digital-forest,-where-trees-have-leaves-made-of-shimmering-ERC-20-tokens.-The-forest-floor-is-illuminated-by-the-glow-of-the-Ethereum"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -113,21 +117,21 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://youtu.be/49Fx963su1I"
+                href="https://youtu.be/"
                 target="_blank"
               >
                 <AiOutlineYoutube />
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://www.noormohmmad.com/"
+                href="https://www.google.com/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
@@ -146,8 +150,8 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={noorShop}
-                alt="noorShop"
+                src={digitalLandscapeImg}
+                alt="Illustration-of-a-digital-landscape-representing-the-Ethereum-network.-Floating-in-this-space-are-various-ERC-20-tokens,-each-with-its-unique-design"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
