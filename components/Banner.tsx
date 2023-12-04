@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import logo from "@/public/logo.png";
 const Banner = () => {
   return (
     <section
@@ -9,7 +10,7 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.6 }}
-        className="text-lg font-titleFont tracking-wide text-textGreen"
+        className="text-xl font-titleFont tracking-wide text-textDark"
       >
         Hi, Welcome to
       </motion.h3>
@@ -17,11 +18,11 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }}
-        className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col"
+        className="text-4xl lgl:text-6xl text-[#f1b3e0] font-titleFont font-semibold flex flex-col"
       >
-        Tokenhiro,
+        Lady Bonk!,
         <span className="text-textDark mt-2 lgl:mt-4">
-          We build solution for the web of Blockchains.
+          part of the <span className="text-red-500">BONK!</span> backbone!
         </span>
       </motion.h1>
       <motion.p
@@ -30,27 +31,18 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        Tokenhiro is a Online Services Agency focused on web and blockchain, we
-        develop securized decentralized applications and audit ready smart
-        contract for our partners <br />
-        <a href="https://www.fiverr.com/" target="_blank">
+        LadyBonk is the girlfriend of BONK <br />
+       SHE is a constant pillar of support, she stands by him through the highs and lows, <br />
+       weathering storms and basking in sunshine together. With a heart that beats in sync with his dreams, <br />
+       she becomes his cheerleader, celebrating victories and soothing defeats.
+        <a href="https://gitbook.com/" target="_blank">
           {" "}
-          <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
+          <span className="text-[#f1b3e0] inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn more
-            <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
+            <span className="absolute w-full h-[1px] bg-[#f1b3e0] left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
           </span>
         </a>
       </motion.p>
-      <a href="https://www.fiverr.com/" target="_blank">
-        <motion.button
-          initial={{ y: 10, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.9 }}
-          className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
-        >
-          Check out our Services!
-        </motion.button>
-      </a>
     </section>
   );
 };

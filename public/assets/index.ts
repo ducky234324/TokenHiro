@@ -1,5 +1,5 @@
 import logo from "./images/logo.png";
-import profileImg from "./images/profile.png";
+import profileImg from "./images/logo.png";
 
 import favicon from "./images/favicon.ico";
 

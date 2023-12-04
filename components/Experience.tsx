@@ -53,67 +53,45 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="max-w-containerxs mx-auto py-10 lgl:py-24 px-4"
+      className="max-w-containerxs mx-auto py-10 lgl:py-24 px-4 text-[#f1b3e0]"
     >
-      <SectionTitle title="What We Built" titleNo="02" />
+      <SectionTitle title="The Mechanism" titleNo="02" />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
           <li
             onClick={handleReactbd}
             className={`${
               workReactbd
-                ? "border-l-textGreen text-textGreen"
+                ? "border-l-[#f1b3e0] text-[#f1b3e0]"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Example 1
+            Step 1
           </li>
           <li
             onClick={handleGoogle}
             className={`${
               workGoogle
-                ? "border-l-textGreen text-textGreen"
+                ? "border-l-[#f1b3e0] text-[#f1b3e0]"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Example 2
+            Step 2
           </li>
           <li
             onClick={handleApple}
             className={`${
               workApple
-                ? "border-l-textGreen text-textGreen"
+                ? "border-l-[#f1b3e0] text-[#f1b3e0]"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Example 3
-          </li>
-          <li
-            onClick={handleSplash}
-            className={`${
-              workSplash
-                ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
-          >
-            Example 4
-          </li>
-          <li
-            onClick={handleAmazon}
-            className={`${
-              workAmazon
-                ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
-          >
-            Example 5
+            Step 3
           </li>
         </ul>
         {workReactbd && <ReactBD />}
         {workGoogle && <Google />}
         {workApple && <Apple />}
-        {workSplash && <Splash />}
-        {workAmazon && <Amazon />}
       </div>
     </section>
   );

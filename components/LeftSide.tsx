@@ -1,5 +1,5 @@
 import { TbBrandGithub } from "react-icons/tb";
-import { SlSocialYoutube } from "react-icons/sl";
+import { SlPaperPlane, SlSocialTwitter, SlSocialYoutube } from "react-icons/sl";
 import {
   SlSocialLinkedin,
   SlSocialFacebook,
@@ -8,35 +8,20 @@ import {
 
 const LeftSide = () => {
   return (
-    <div className="w-full h-full flex flex-col items-center justify-end gap-4 text-textLight">
+    <div className="w-full h-full flex flex-col items-center justify-end gap-4 text-white">
       <div className="flex flex-col gap-4">
-        <a href="https://github.com/" target="_blank">
-          <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-            <TbBrandGithub />
+        <a href="https://www.twitter.com/ladybonkj_inu" target="_blank">
+          <span className="w-10 h-10 text-xl bg-[#f1b3e0] rounded-full inline-flex items-center justify-center hover:text-black cursor-pointer hover:-translate-y-2 transition-all duration-300">
+            <SlSocialTwitter />
           </span>
         </a>
-        <a href="https://www.youtube.com/" target="_blank">
-          <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-            <SlSocialYoutube />
-          </span>
-        </a>
-        <a href="https://www.linkedin.com/" target="_blank">
-          <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-            <SlSocialLinkedin />
-          </span>
-        </a>
-        <a href="https://www.facebook.com/" target="_blank">
-          <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-            <SlSocialFacebook />
-          </span>
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-          <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-            <SlSocialInstagram />
+        <a href="https://tm.me" target="_blank">
+          <span className="w-10 h-10 text-xl bg-[#f1b3e0] rounded-full inline-flex items-center justify-center hover:text-black cursor-pointer hover:-translate-y-2 transition-all duration-300">
+            <SlPaperPlane />
           </span>
         </a>
       </div>
-      <div className="w-[2px] h-32 bg-textDark"></div>
+      <div className="w-[2px] h-32 bg-[#f1b3e0]"></div>
     </div>
   );
 };
