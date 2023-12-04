@@ -19,9 +19,9 @@ const About = () => {
             Together with the community we are going to add value to LadyBonk $LBONK, $BONK and $BERN.  <br />
             <br />
             <span className="text-[#f1b3e0]">The Community: </span>
-            Our crypto community as a big, supportive family where everyone's helping each other learn, 
+            Our crypto community as a big, supportive family where everyone is helping each other learn, 
             grow, and navigate this exciting new world of the BONK ecosystem. 
-            It's like a shared kitchen table where experiences are swapped, problems are solved, and dreams for a decentralized future are cooked up together. <br /><br />
+            It is like a shared kitchen table where experiences are swapped, problems are solved, and dreams for a decentralized future are cooked up together. <br /><br />
             <span className="text-[#f1b3e0]">The Token: </span>Token 2022 program configured with 3% tax fee. <br />100bn $LBONK for the community, for $BONK and for $BERN.<br />
             We are going to PUMP the Bonk ecosystem to the moon.  
             <br /><br />
