@@ -12,15 +12,10 @@ import { RxOpenInNewWindow } from "react-icons/rx";
 const Projects = () => {
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
-      <SectionTitle title="Our Services" titleNo="03" />
+      <SectionTitle title="The Project" titleNo="03" />
       {/* ============ project One Start here ================ */}
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div className="flex flex-col xl:flex-row gap-6">
-          <a
-            className="w-full xl:w-1/2 h-auto relative group"
-            href="https://fiverr.com/"
-            target="_blank"
-          >
             <div>
               <Image
                 className="w-full h-full object-contain"
@@ -29,7 +24,6 @@ const Projects = () => {
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
-          </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
             <div>
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
