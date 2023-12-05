@@ -22,7 +22,7 @@ const Projects = () => {
                 src={futuristicCityImg}
                 alt="Illustration-of-a-futuristic-city-skyline-where-large-holographic-screens-showcase-a-variety-of-NFT-artworks-The-screens-float-above-the-buildings-an"
               />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              
             </div>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
             <div>
